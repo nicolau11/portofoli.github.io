@@ -1,0 +1,1391 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Footer */
+footer {
+    height: 40vh;
+    background-color: #EBD9B4;
+    font-family: 'Outfit';
+}
+
+.encapçalament {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    padding-top: 100px;
+}
+
+.imgFooter img {
+    width: 100;
+    height: 100px;
+
+    border-radius: 150px;
+    border: 4px solid #ab8867;
+}
+
+.linksFooter h3 {
+    font-family: 'Outfit';
+    font-size: 1em;
+    font-weight: 300;
+    text-align: center;
+    color: #3e362e;
+}
+
+.logoFooter i {
+    color: #3e362e;
+    font-size: 1.7em;
+
+    padding: 0px 5px;
+}
+
+footer p {
+    padding-top: 30px;
+
+    text-align: center;
+    font-family: 'Outfit';
+    color: #3e362e;
+}
+
+/* Menu */
+#header {
+    background-image: url(img/fotoDark.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+
+    height: 100vh;
+}
+
+.capçalera {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu {
+    margin-top: 80px;
+    padding-right: 10px;
+    padding-left: 10px;
+
+    border: 0px solid;
+    border-radius: 50px;
+
+    backdrop-filter: blur(500px);
+
+    transition: all 1s;
+
+    filter: brightness(100%);
+
+    position: fixed;
+
+    z-index: 1;
+}
+
+.menu:hover {
+    backdrop-filter: blur(150px);
+}
+
+.menu ul {
+    padding-left: 5px;
+}
+
+.menu ul li {
+    text-decoration: none;
+    font-family: 'Outfit';
+    color: white;
+
+    display: inline-block;
+
+    padding: 0px 5px;
+
+    transition: all 1s;
+}
+
+.menu ul li:hover {
+    color: black;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.A:hover {
+    background-color: rgb(216, 216, 216);
+    border: 0 solid;
+    border-radius: 50px;
+}
+
+.P:hover {
+    background-color: rgb(216, 216, 216);
+    border: 0 solid;
+    border-radius: 50px;
+}
+
+.AB:hover {
+    background-color: rgb(216, 216, 216);
+    border: 0 solid;
+    border-radius: 50px;
+}
+
+.C:hover {
+    background-color: rgb(216, 216, 216);
+    border: 0 solid;
+    border-radius: 50px;
+}
+
+.titolPortada {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    height: 70vh;
+}
+
+.titolPortada h1 {
+    font-family: 'Outfit';
+    font-size: 8em;
+    font-weight: 100;
+    text-align: center;
+    color: white;
+
+    padding-top: 80px;
+    margin: 0;
+}
+
+.titolPortada button {
+    padding: 10px;
+
+    border: 0px solid;
+    border-radius: 50px;
+
+    background-color: #776B5D;
+
+    font-family: 'Outfit';
+}
+
+.titolPortada button {
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.persp {
+    perspective: 100px;
+    -webkit-perspective: 300px;
+}
+
+.persp:hover button {
+    -webkit-transform: rotateX(360deg);
+    transform: rotateX(360deg);
+}
+
+/* Descripció */
+#descripcio {
+    height: 100vh;
+    padding-top: 300px;
+
+    background-color: #3e362e;
+}
+
+.zonaDescrip {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.zonaDescrip h2 {
+    font-family: 'Outfit';
+    font-weight: 500;
+    font-size: 1em;
+    color: white;
+
+    margin-left: -950px;
+    padding: 5px 10px;
+
+    border: 2px solid;
+    border-radius: 50px;
+}
+
+.introDescrip {
+    text-align: center;
+    font-family: 'Outfit';
+    font-weight: 100;
+    font-size: 3em;
+    color: #ab8867;
+
+    padding: 5px 200px;
+    margin: 0px;
+}
+
+.autorDescrip {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-left: auto;
+    margin-right: 230px;
+    padding-top: 40px;
+}
+
+.autorDescrip img {
+    width: 100;
+    height: 100px;
+    border-radius: 150px;
+}
+
+.autorDescrip h3 {
+    font-family: 'Outfit';
+    font-size: 1.5em;
+
+    padding-left: 10px;
+    margin: 0;
+}
+
+.aiDescrip {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.aiDescrip span {
+    font-family: 'Outfit';
+}
+
+
+/* ABOUT */
+
+/* Portada About */
+.portadaAbout {
+    height: 100vh;
+
+    background-image: url(img/portadaAbout.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.kobeAbout {
+    height: 80vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.kobeAbout h3 {
+    font-family: 'Outfit';
+    font-size: 4em;
+    font-weight: 100;
+    color: white;
+
+    margin: 10px 0px;
+}
+
+.kobeAbout p {
+    font-family: 'Outfit';
+    font-size: 1em;
+    color: white;
+
+    border: 0px solid;
+    border-radius: 50px;
+
+    background-color: #776B5D;
+
+    padding: 10px;
+}
+
+/* Presentacio About */
+#presentacioAbout {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.divGeneralPresentacio {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.presentacioAbout {
+    width: 50%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.presentacioAbout h2 {
+    font-family: 'Outfit';
+    font-size: 4em;
+}
+
+.presentacioAbout p {
+    font-family: 'Outfit';
+    text-align: justify;
+
+    padding-right: 60px;
+}
+
+.imgAbout {
+    width: 50%;
+}
+
+.imgAbout img {
+    width: 600px;
+    height: 600px;
+}
+
+/* Experiencia i Estudis */
+.titolExperiencia {
+    width: 600px;
+    height: 120px;
+
+    background-color: yellow;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titolExperiencia {
+    font-family: 'Outfit';
+    font-size: 2em;
+}
+
+.experiencia {
+    margin-left: 400px;
+    margin-bottom: 30px;
+}
+
+.experiencia h3 {
+    font-family: 'Outfit';
+}
+
+.experiencia span {
+    background-color: black;
+    color: white;
+}
+
+.experiencia p {
+    font-family: 'Outfit';
+}
+
+/* Llenguatges */
+#sec4About {
+    height: 50vh;
+    background-color: #E5E1DA;
+}
+
+.llenguatges {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    padding-top: 100px;
+}
+
+.llenguatges img {
+    width: 100px;
+    transition: 1s all;
+}
+
+.llenguatges:hover img {
+    transform: rotate(-720deg);
+}
+
+#sec4About h1 {
+    text-align: center;
+    font-family: 'Outfit';
+    font-size: 1em;
+
+    margin-top: 50px;
+    padding: 7px;
+
+    border: 3px solid black;
+    border-radius: 50px;
+
+    width: 100px;
+}
+
+/* Portada Aptituds */
+.portadaAptituds {
+    height: 100vh;
+
+    background-image: url(img/portadAptituds.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titolAptituds {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+}
+
+.titolAptituds h3 {
+    font-family: 'Outfit';
+    font-weight: 100;
+    font-size: 5em;
+    color: white;
+}
+
+/* Seccio 1 Aptitud */
+#sec1Aptituds {
+    height: 250vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    background-color: #F2EFE5;
+}
+
+.divAptitud {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 0px solid;
+    border-radius: 50px;
+}
+
+.divAptitud p {
+    font-family: 'Outfit';
+    text-align: justify;
+
+    padding: 50px 150px;
+}
+
+.divAptitud img {
+    width: 100px;
+
+    padding: 0px 100px;
+}
+
+.fletxa1 {
+    width: 250px;
+}
+
+.titolAptitud {
+    font-family: 'Outfit';
+    font-weight: 500;
+    font-size: 1em;
+    color: black;
+
+    padding: 10px 20px;
+    margin-left: -1100px;
+
+    border: 3px solid;
+    border-radius: 50px;
+}
+
+/* Contacte */
+.divContacte {
+    background-image: url(img/fondoContacte.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 100vh;
+}
+
+.formContacte {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+}
+
+.formContacte h2 {
+    font-family: 'Outfit';
+
+    padding: 0px 20px;
+}
+
+.formContacte form {
+    border: 0px solid;
+    border-radius: 50px;
+
+    background-color: white;
+
+    padding: 60px;
+    width: 450px;
+
+    font-family: 'Outfit';
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.formContacte form input {
+    border: 0px;
+    border-bottom: 1px solid;
+
+    margin: 20px 0px;
+
+    font-family: 'Outfit';
+    color: black;
+}
+
+.formContacte form textarea {
+    border: 0px;
+    border-bottom: 1px solid;
+
+    margin: 20px 0px;
+
+    font-family: 'Outfit';
+    color: black;
+}
+
+/* Titol Portafoli */
+.divTitolPortafoli h1 {
+    font-family: 'Outfit';
+    font-size: 3.5em;
+    margin-left: 230px;
+}
+
+/* Projectes Portfoli */
+.divGeneralProjectes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 35px;
+
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+
+.p1 {
+    background-image: url(tendaVirtual.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    width: 1000px;
+    height: 600px;
+
+    padding-left: 50px;
+
+    transition: background-image 0.5s ease;
+}
+
+.p1:hover {
+    background-image: url(tendaVirtual.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.p2 {
+    background-image: url(softwarePropietari.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    width: 1000px;
+    height: 600px;
+
+    padding-left: 50px;
+
+    transition: background-image 0.5s ease;
+}
+
+.p2:hover {
+    background-image: url(softwarePropietari2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.p3 {
+    background-image: url(ODS.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    width: 1000px;
+    height: 600px;
+
+    padding-left: 50px;
+
+    transition: background-image 0.5s ease;
+}
+
+.p3:hover {
+    background-image: url(ODS2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.titolProjecte,
+.tipusProjecte,
+.llenguatgeProjecte,
+.cursProjecte,
+.descripcioProjecte,
+.descargarProjecte,
+.iconeProjecte {
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.p1:hover .titolProjecte,
+.p1:hover .tipusProjecte,
+.p1:hover .llenguatgeProjecte,
+.p1:hover .cursProjecte,
+.p1:hover .descripcioProjecte,
+.p1:hover .descargarProjecte,
+.p1:hover .iconeProjecte {
+    opacity: 1;
+}
+
+.p2:hover .titolProjecte,
+.p2:hover .tipusProjecte,
+.p2:hover .llenguatgeProjecte,
+.p2:hover .cursProjecte,
+.p2:hover .descripcioProjecte,
+.p2:hover .descargarProjecte,
+.p2:hover .iconeProjecte {
+    opacity: 1;
+}
+
+.p3:hover .titolProjecte,
+.p3:hover .tipusProjecte,
+.p3:hover .llenguatgeProjecte,
+.p3:hover .cursProjecte,
+.p3:hover .descripcioProjecte,
+.p3:hover .descargarProjecte,
+.p3:hover .iconeProjecte {
+    opacity: 1;
+}
+
+
+.titolProjecte {
+    font-family: 'Outfit';
+    font-size: 4em;
+    color: white;
+}
+
+.tipusProjecte {
+    font-family: 'Outfit';
+    font-weight: 100;
+    color: white;
+}
+
+.llenguatgeProjecte {
+    font-family: 'Outfit';
+    font-weight: 100;
+    color: white;
+}
+
+.cursProjecte {
+    font-family: 'Outfit';
+    font-weight: 100;
+    color: white;
+}
+
+.descripcioProjecte {
+    font-family: 'Outfit';
+    font-weight: 100;
+    color: white;
+}
+
+.descargarProjecte {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 7px;
+}
+
+.descargarProjecte p {
+    font-family: 'Outfit';
+    font-weight: 100;
+    color: white;
+}
+
+.descargarProjecte a {
+    transition: transform 1s;
+    display: inline-block;
+
+    color: black;
+}
+
+.descargarProjecte a:hover {
+    transform: translateY(15px);
+}
+
+.iconeProjecte {
+    font-size: 2em;
+    color: white;
+}
+
+/* Footer */
+footer {
+    height: 50vh;
+}
+
+.encapçalament {
+    flex-direction: column;
+
+    padding-top: 30px;
+}
+
+/* Portada About */
+.kobeAbout h3 {
+    font-size: 2.3em;
+    text-align: center;
+
+    margin: 0;
+    padding: 0px 20px;
+}
+
+/* Seccio 1 About */
+#sec1About {
+    height: 80vh;
+    background-color: #F2EFE5;
+}
+
+.parp1About {
+    flex-direction: column;
+    justify-content: center;
+
+    height: 80vh;
+
+    padding-bottom: 120px;
+}
+
+.textAbout {
+    padding-bottom: 30px;
+}
+
+.textAbout h2 {
+    margin-right: 120px;
+    margin-left: 30px;
+}
+
+.textAbout p {
+    padding-left: 30px;
+    padding-right: 30px;
+
+    text-align: justify;
+}
+
+.foto1About {
+    display: none;
+}
+
+.fotos2i3 {
+    flex-direction: column;
+}
+
+.foto2About {
+    width: 100%;
+    height: 50vh;
+}
+
+.foto3About {
+    width: 100%;
+    height: 50vh;
+}
+
+/*Seccio Experiencia */
+#sec3About {
+    height: 230vh;
+}
+
+.textContainer {
+    width: 350px;
+    height: 300px;
+
+    flex-direction: column;
+
+    margin-right: 5px;
+    margin-top: 15px;
+}
+
+/* Aptituds */
+.introAptituds {
+    font-family: 'Outfit';
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    background-color: #04d758;
+
+    height: 80vh;
+}
+
+.titolAptituds {
+    margin-left: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.titolAptituds h1 {
+    font-size: 5em;
+    text-align: left;
+    margin-left: 140px;
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0;
+}
+
+.titolAptituds h4 {
+    font-size: 1.5em;
+    text-align: left;
+
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* Seccio Aptituds */
+.divGeneral1Aptituds {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    width: 100%;
+    height: 50vh;
+}
+
+.divGeneral2Aptituds {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    width: 100%;
+    height: 50vh;
+}
+
+.aptitud {
+    width: 500px;
+    height: 500px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.aptitud img {
+    width: 100px;
+    height: 100px;
+}
+
+.aptitud p {
+    padding: 0px 50px;
+
+    font-family: 'Outfit';
+}
+
+/*Contacte */
+.formContacte form {
+    margin: 20px 40px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1080px) {
+
+    /* Portada index */
+    .titolPortada {
+        font-size: 0.7em;
+    }
+
+    /* Descripcio index */
+    #descripcio {
+        padding-top: 30px;
+
+        height: 40vh;
+    }
+
+    .zonaDescrip h2 {
+        margin-left: 0px;
+    }
+
+    .introDescrip {
+        font-size: 1em;
+        font-weight: 300;
+
+        padding: 10px 70px;
+    }
+
+    .autorDescrip {
+        padding-left: 130px;
+    }
+
+    /* Footer */
+    footer {
+        height: 40vh;
+    }
+
+    .encapçalament {
+        flex-direction: column;
+
+        padding-top: 30px;
+    }
+
+    /* Seccio Aptituds */
+    #sec1Aptituds {
+        gap: 50px;
+
+        height: 260vh;
+    }
+
+    .divAptitud {
+        flex-direction: column;
+    }
+
+
+
+
+    .titolAptitud {
+        margin: 0px;
+    }
+
+    /*Contacte */
+    .formContacte form {
+        margin: 20px 40px;
+    }
+}
+
+
+@media screen and (max-width: 940px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Index */
+
+    .titolPortada {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        height: auto;
+        width: 100%;
+
+        margin: 0;
+        margin-top: 400px;
+        padding: 0;
+    }
+
+    .titolPortada h1 {
+        font-family: 'Outfit';
+        font-size: 2em;
+        font-weight: 100;
+        text-align: center;
+        color: white;
+
+        margin: 0;
+        padding: 0;
+    }
+
+    .titolPortada button {
+        padding: 10px;
+
+        border: 0px solid;
+        border-radius: 50px;
+
+        background-color: #776B5D;
+
+        font-family: 'Outfit';
+    }
+
+    .titolPortada button {
+        -webkit-transition: all 0.4s;
+        transition: all 0.4s;
+    }
+
+    .persp {
+        perspective: 100px;
+        -webkit-perspective: 300px;
+    }
+
+    .persp:hover button {
+        -webkit-transform: rotateX(360deg);
+        transform: rotateX(360deg);
+    }
+
+    /* Descripció */
+    #descripcio {
+        height: auto;
+
+        margin: 0;
+        padding: 0;
+
+        background-color: #3e362e;
+    }
+
+    .zonaDescrip {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .zonaDescrip h2 {
+        font-family: 'Outfit';
+        font-weight: 500;
+        font-size: 1em;
+        color: white;
+
+        /* margin-left: -950px;
+        padding: 5px 10px; */
+
+        border: 2px solid;
+        border-radius: 50px;
+    }
+
+    .introDescrip {
+        text-align: center;
+        font-family: 'Outfit';
+        font-weight: 100;
+        font-size: 1.5em;
+        color: #ab8867;
+
+        padding: 0;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .autorDescrip {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        margin: 0;
+        padding-bottom: 20px;
+    }
+
+    .autorDescrip img {
+        width: 100;
+        height: 100px;
+        border-radius: 150px;
+    }
+
+    .autorDescrip h3 {
+        font-family: 'Outfit';
+        font-size: 1.5em;
+
+        padding-left: 10px;
+        margin: 0;
+    }
+
+    .aiDescrip {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .aiDescrip span {
+        font-family: 'Outfit';
+    }
+
+    /* About */
+    .divGeneralPresentacio {
+        flex-direction: column;
+    }
+
+    .presentacioAbout {
+        width: 80%;
+        padding-left: 10px;
+        padding-right: 10px;
+
+        margin: 0;
+    }
+
+    .presentacioAbout h2 {
+        font-family: 'Outfit';
+        font-size: 2em;
+    }
+
+    .presentacioAbout p {
+        font-family: 'Outfit';
+        text-align: justify;
+    }
+
+    .imgAbout {
+        width: 80%;
+    }
+
+    .imgAbout img {
+        width: 80%;
+        height: auto;
+
+        margin: 0;
+        padding: 0;
+    }
+
+    .titolExperiencia {
+        width: 70%;
+        height: 120px;
+
+        background-color: yellow;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .titolExperiencia {
+        font-family: 'Outfit';
+        font-size: 1.5em;
+        margin-bottom: 10px;
+    }
+
+    .experiencia {
+        margin-left: 10px;
+        margin-bottom: 5px;
+    }
+
+    .experiencia h3 {
+        font-family: 'Outfit';
+        font-size: 1em;
+    }
+
+    .experiencia span {
+        background-color: black;
+        color: white;
+    }
+
+    .experiencia p {
+        font-family: 'Outfit';
+        font-size: 0.6em;
+    }
+
+    #sec4About {
+        height: auto;
+        background-color: #E5E1DA;
+        padding-bottom: 100px;
+    }
+
+    .llenguatges {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+
+        padding-top: 100px;
+    }
+
+    .llenguatges img {
+        width: 100px;
+        transition: 1s all;
+        padding: 10px 0px;
+    }
+
+    .llenguatges:hover img {
+        transform: rotate(-720deg);
+    }
+
+    #sec4About h1 {
+        text-align: center;
+        font-family: 'Outfit';
+        font-size: 1em;
+
+        margin-top: 50px;
+        margin-bottom: 0;
+
+
+        border: 3px solid black;
+        border-radius: 50px;
+
+        width: 100px;
+    }
+
+
+    /* Portfoli */
+    .divTitolPortafoli h1 {
+        margin-left: 0;
+        margin-top: 60px;
+        padding: 0;
+
+        text-align: center;
+        font-size: 2em;
+    }
+
+    .p1,
+    .p2,
+    .p3 {
+        width: 100%;
+        height: auto;
+
+        margin: 0;
+        padding: 0;
+    }
+
+    .titolProjecte {
+        font-size: 2em;
+        text-align: center;
+    }
+
+    .tipusProjecte {
+        font-size: 0.8em;
+        text-align: center;
+    }
+
+    .llenguatgeProjecte {
+        font-size: 0.8em;
+        text-align: center;
+    }
+
+    .cursProjecte {
+        font-size: 0.8em;
+        text-align: center;
+    }
+
+    .descripcioProjecte {
+        font-size: 0.8em;
+        text-align: center;
+        padding: 0px 5px;
+    }
+
+    .descargarProjecte {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 3px;
+    }
+
+    .descargarProjecte p {
+        font-size: 0.8em;
+        text-align: center;
+    }
+
+    .descargarProjecte a {
+        transition: transform 1s;
+        display: inline-block;
+
+        color: black;
+    }
+
+    .descargarProjecte a:hover {
+        transform: translateY(15px);
+    }
+
+    .iconeProjecte {
+        font-size: 2em;
+        color: white;
+    }
+
+    /* Aptituds */
+    .introAptituds {
+        height: auto;
+        width: 100%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .titolAptituds {
+        margin: 0;
+        margin-top: 80px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        height: auto;
+    }
+
+    .titolAptituds h1 {
+        font-size: 1.2em;
+        text-align: center;
+
+        margin: 0;
+        padding: 0;
+
+        width: auto;
+        height: auto;
+    }
+
+    .titolAptituds h4 {
+        font-size: 0.7em;
+        text-align: center;
+
+        margin: 0;
+        padding: 0;
+
+        width: auto;
+        height: auto;
+    }
+
+    .imgAptituds img {
+        width: 320px;
+    }
+
+    /* Seccio Aptituds */
+    .divGeneral1Aptituds {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        width: 100%;
+        height: auto;
+    }
+
+    .divGeneral2Aptituds {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        width: 100%;
+        height: auto;
+    }
+
+    .aptitud {
+        width: 90%;
+        height: auto;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .aptitud img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .aptitud p {
+        padding: 0px 15px;
+
+        font-family: 'Outfit';
+    }
+
+    /* Footer */
+    footer {
+        height: auto;
+        background-color: #EBD9B4;
+        font-family: 'Outfit';
+    }
+
+    footer p {
+        padding: 0;
+        padding-bottom: 20px;
+        margin: 0;
+    
+        text-align: center;
+        font-family: 'Outfit';
+        color: #3e362e;
+    }
+}
